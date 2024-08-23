@@ -1,0 +1,61 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #121212; /* Dark background for the theme */
+    color: #ffffff; /* Light color text for readability */
+    font-family: 'Roboto', sans-serif; /* Stylish, modern font */
+}
+
+/* Title Style */
+.wallet-title {
+    text-align: center;
+    color: #ffffff;
+    font-size: 24px;
+    padding: 20px 0;
+}
+
+.navColour {
+    background-color: #1a1a1a; /* Slightly lighter dark shade for the navbar */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+/* Further styling for navbar items */
+.uk-navbar-nav > li > a {
+    color: #fff; /* White text color */
+    transition: color 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.uk-navbar-nav > li > a:hover {
+    color: #9e9e9e; /* Grey for hover state */
+}
+
+.cardColour {
+    background-color: #333333; /* Dark grey background for cards */
+    border: 1px solid #444444; /* Slightly darker border for definition */
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #fff; /* Ensure text is readable by setting a high contrast color */
+}
+@media (max-width: 639px) {
+  #bitcoinArtImg, .uk-grid-item-match, #qrDiv {
+      width: 100% !important; /* Full width on smaller screens */
+      margin-left: 0 !important;
+      text-align: center;
+  }
+}
+
+
+/* Style corrections for better visibility and aesthetics */
+input[type="text"], .iconRight {
+    background-color: #424242; /* Lighter grey for inputs for better visibility */
+    color: #fff; /* White text color for high readability */
+}
+
+/* Styling adjustments for icons */
+.iconRight {
+    color: #bbb; /* Light grey icons for better visibility */
+    cursor: pointer; /* Indicates that the icon is clickable */
+}
+
